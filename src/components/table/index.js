@@ -16,7 +16,7 @@ const tableConfig = {
 class Table extends Component {
 	render() {
 		const { items, onSearch, onSort, onSetRate, toShow, onGetMore } = this.props;
-		console.log(toShow);
+	
 		return (
 			<div className="table-wrapper">
 				<SearchInput onSearch={onSearch}/>
