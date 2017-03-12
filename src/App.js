@@ -14,7 +14,7 @@ import {
 	changeFilmYear,
 	changeFilmName,
 	triggerError,
-    getMore
+	getMore
 } from './actions';
 import { filteredArrayOfName, resetData } from './utils';
 import { filmsYear, filmsType } from './static';
@@ -38,7 +38,7 @@ const mapStateToProps = (state) => {
 		filmYear: state.filmListReducer.filmYear,
 		filmName: state.filmListReducer.filmName,
 		errorMsg: state.filmListReducer.error,
-        toShow: state.filmListReducer.toShow
+		toShow: state.filmListReducer.toShow
 	};
 };
 
